@@ -1,8 +1,10 @@
 链接：https://tianchi.aliyun.com/competition/new_articleDetail.html?raceId=231601&postsId=342&from=part
-* candidates.csv为什么标明假阳性；
-* Luna16患者结节数目统计图不太明白；
-* 如何理解“没有直径的class为0的都是明确标记为假阳性结节（并且>3mm），小于3mm的假阳性结节没有标记。”；
-* CT的厚度不超过2mm，怎么能3D化肺结节呢？
-* 如何理解世界坐标；
+* candidates.csv为什么标明假阳性；【Keyu】
+* Luna16患者结节数目统计图不太明白；【Keyu】
+* 如何理解“没有直径的class为0的都是明确标记为假阳性结节（并且>3mm），小于3mm的假阳性结节没有标记。”；【Keyu】
+* CT的厚度不超过2mm，怎么能3D化肺结节呢？【Keyu】
+* 如何理解世界坐标；【Keyu】
+*数据重采样原理？【Yaolei】
+*相邻单位体速间间距是个什么概念？在这里起到什么作用？【Yaolei】
 
 

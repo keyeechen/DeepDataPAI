@@ -1,3 +1,0 @@
-链接：https://tianchi.aliyun.com/competition/new_articleDetail.html?raceId=231601&postsId=342&from=part
-*数据重采样原理？
-*相邻单位体速间间距是个什么概念？在这里起到什么作用？
