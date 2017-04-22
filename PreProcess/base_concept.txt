@@ -1,0 +1,20 @@
+癌症的阳性和阴性：
+阳性：恶性肿瘤，是癌症
+阴性：良性肿瘤，不是癌症
+假阳性：由于其它原因导致的肿瘤标志物升高，使检查时误将其判断为阳性，其实并没有癌症
+
+luna16官方地址：https://luna16.grand-challenge.org/data/
+
+The list of candidates is provided for participants who are following the ‘false positive reduction’ track. 
+
+For convenience, the corresponding class label (0 for non-nodule and 1 for nodule) for each candidate is provided in the list. 
+It has to be noted that there can be multiple candidates per nodule.
+
+LIDC原话：
+If the opacity is clearly benign, no marking
+
+参考：https://tianchi.aliyun.com/competition/new_articleDetail.html?raceId=231601&postsId=626&from=part#
+Luna16提供了一个csv文件，为每个病人给出了一个假阳性和阳性结节的列表，所以我们使用阳性和假阳性标注文件来训练一个结节分类网络。
+
+总结：class为1代表的是阳性(即真结节，但是小于3mm),class为0代表的是假阳性(即假结节，但是大于3mm)。candidates表是用来训练一个结节分类网络，来进一步删除假阳性结节。
+
