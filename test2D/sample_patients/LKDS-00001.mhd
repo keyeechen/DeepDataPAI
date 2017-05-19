@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 72540585
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = -207.5 -206.5 49.5
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 0.806641 0.806641 1.25
+DimSize = 512 512 281
+ElementType = MET_SHORT
+ElementDataFile = LKDS-00001.zraw
